@@ -17,6 +17,7 @@
     "particles.js": "^2.0.0"
   },
   "devDependencies": {
+    "parcel-plugin-json-url-loader": "^0.1.2",
     "typescript": "^3.2.2"
   }
 }

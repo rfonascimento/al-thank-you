@@ -1,7 +1,6 @@
 require('bootstrap-css-only');
 require('particles.js');
 import './assets/styles/main.scss';
-import './assets/configs/particlesjs-config';
 
 
 (function(){'use strict';
@@ -9,7 +8,7 @@ import './assets/configs/particlesjs-config';
    const myapp = angular.module('alThankYou', []);
 
    particlesJS.load('body', require('./assets/configs/particlesjs-config.json'), function() {
-      console.log('callback2 - particles.js config loaded');
+      console.log('callback22 - particles.js config loaded');
    });
 
    myapp.controller('mainCtrl', ['$rootScope', '$scope', ($rootScope: angular.IRootScopeService, $scope: angular.IScopeService) =>{
