@@ -8,7 +8,7 @@ require('./assets/configs/particlesjs-config');
     var angular = require('angularjs');
     var myapp = angular.module('alThankYou', []);
     particlesJS.load('body', require('./assets/configs/particlesjs-config.json'), function () {
-        console.log('callback - particles.js config loaded');
+        console.log('callback2 - particles.js config loaded');
     });
     myapp.controller('mainCtrl', ['$rootScope', '$scope', function ($rootScope, $scope) {
             var key = 'myMainController';

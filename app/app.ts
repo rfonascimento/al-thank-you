@@ -9,7 +9,7 @@ import './assets/configs/particlesjs-config';
    const myapp = angular.module('alThankYou', []);
 
    particlesJS.load('body', require('./assets/configs/particlesjs-config.json'), function() {
-      console.log('callback - particles.js config loaded');
+      console.log('callback2 - particles.js config loaded');
    });
 
    myapp.controller('mainCtrl', ['$rootScope', '$scope', ($rootScope: angular.IRootScopeService, $scope: angular.IScopeService) =>{
