@@ -1,0 +1,22 @@
+{
+  "name": "al-thank-you",
+  "version": "1.0.0",
+  "description": "A thank you page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Nascimento",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angularjs": "0.0.1",
+    "app": "^0.1.0",
+    "assets": "^3.0.1",
+    "bootstrap-css-only": "^4.1.3",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
