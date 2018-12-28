@@ -2,13 +2,12 @@
 require('bootstrap-css-only');
 require('particles.js');
 require('./assets/styles/main.scss');
-require('./assets/configs/particlesjs-config');
 (function () {
     'use strict';
     var angular = require('angularjs');
     var myapp = angular.module('alThankYou', []);
-    particlesJS.load('body', require('./assets/configs/particlesjs-config.json'), function () {
-        console.log('callback2 - particles.js config loaded');
+    particlesJS.load('body', require('./assets/configs/particles.json'), function () {
+        console.log('callback222222222223333332 - particles.js config loaded');
     });
     myapp.controller('mainCtrl', ['$rootScope', '$scope', function ($rootScope, $scope) {
             var key = 'myMainController';
