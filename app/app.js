@@ -14,7 +14,8 @@ require('./assets/styles/main.scss');
             var myscope = $scope[key] = (function ($scope) {
                 return {
                     loadInProgress: false,
-                    data: {}
+                    data: {},
+                    title: 'Altice Labes - thank you'
                 };
             })($scope);
         }]);

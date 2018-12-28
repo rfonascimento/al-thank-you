@@ -1,9 +1,15 @@
 <!doctype html>
 <html data-ng-app="alThankYou" ng-strict-di>
-<title>Altice Labs - Thank you</title>
+<title>{{ myMainController.title }}</title>
 <body id="body" data-ng-controller="mainCtrl">
    <main>
-      <section></section>
+      <section>
+         <header>
+            <a id="logo" href="#">
+               <img title="{{ myMainController.title }}" src="./app/assets/imgs/logo.svg"/>
+            </a>
+         </header>
+      </section>
    </main>
 <script src="./app/app.ts"></script>
 </body>
