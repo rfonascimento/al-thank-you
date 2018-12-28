@@ -1,5 +1,6 @@
 html {
    height: 100%;
+   font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -22,6 +23,6 @@ main section {
    background: white;
 }
 
-main header {
+main header, main article {
    padding: 2rem;
 }

@@ -13,7 +13,8 @@ import './assets/styles/main.scss';
       const key = 'myMainController';
       const myscope = $scope[key] = (($scope)=>{return{
          loadInProgress: false,
-         data: {}
+         data: {},
+         title: 'Altice Labes - thank you'
       }})($scope);
 
    }]);
